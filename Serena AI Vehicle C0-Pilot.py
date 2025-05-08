@@ -20,7 +20,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 os.environ["QT_LOGGING_RULES"] = "qt.qpa.fonts=false"
 
-GENAI_API_KEY = "AIzaSyCa7d-oGg8Fulv0mufJuw7fQVwXZu55J2g"  # Replace with your actual key
+GENAI_API_KEY = "YOUR API KEY (EG: GEMINI API KEY)"  # Replace with your actual key
 genai.configure(api_key=GENAI_API_KEY)
 WEATHER_API_KEY = "5bf657e0eae076b99ad1f0e59a6c4358"
 
